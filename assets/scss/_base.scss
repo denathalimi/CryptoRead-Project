@@ -1,0 +1,46 @@
+@import 'variables';
+
+h1 {
+    font-size: 50px;
+    color: $cdarkblue;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.btn {
+    background-color: $cblue;
+    color: $cwhite;
+    padding: 10px 20px;
+    border-radius: 34px;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: center;
+    text-decoration: none;
+    margin-left: -18px;
+}
+
+.input-subscribe {
+    background-color: #f6f6f6;
+    vertical-align: center;
+    border: transparent;
+    border-radius: 34px;
+    height: 35px;
+    width: 200px;
+    padding: 0px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.container-header {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}

@@ -1,0 +1,58 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;600;700;800&display=swap');');
+@import 'base';
+@import 'variables';
+@import 'mixins';
+
+* {
+    font-family: 'Mulish', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+header {
+    height: 100px;
+    @include flexSbAc;
+
+    .container {
+        @include flexSbAc;
+    }
+
+    img {
+        height: 35px;
+        width: auto;
+    }
+    
+    nav {
+        
+        ul {
+            list-style-type: none;
+            @include flexSbAc;
+        }
+
+        li {
+        }
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 13px;
+            color: #7b7b7b;
+
+            &:hover {
+                
+            }
+        }
+    }
+}
+
+main {
+    .container {
+        align-items: center;
+    }
+}

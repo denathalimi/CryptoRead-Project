@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;600&display=swap");
+h1 {
+  font-size: 50px;
+  color: #4d4970;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #3569df;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 34px;
+  font-size: 12px;
+  font-weight: bold;
+  vertical-align: center;
+  text-decoration: none;
+  margin-left: -18px;
+}
+
+.input-subscribe {
+  background-color: #f6f6f6;
+  vertical-align: center;
+  border: transparent;
+  border-radius: 34px;
+  height: 35px;
+  width: 200px;
+  padding: 0px 10px;
+  font-size: 10px;
+  font-weight: bold;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.container-header {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+* {
+  font-family: "Mulish", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  height: 35px;
+  width: auto;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 13px;
+  color: #7b7b7b;
+}
+
+main .container {
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
