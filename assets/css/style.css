@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
 h1 {
+  font-family: "Gilroy-Medium", sans-serif;
   font-size: 50px;
   color: #4d4970;
 }
 
 h4 {
+  font-family: "Gilroy-Medium", sans-serif;
   font-size: 18px;
 }
 
@@ -34,34 +36,28 @@ h4 {
   border-bottom-right-radius: 0px;
 }
 
-.container-header {
-  width: 1140px;
+.container {
+  width: 1000px;
   margin: 0 auto;
 }
 
-.container {
-  width: 900px;
-  margin: 0 auto;
+p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a7a7ab;
 }
 
 * {
-  font-family: "Mulish", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
   padding: 0px;
   margin: 0px;
 }
 
-.logo-img {
-  height: 40px;
-  width: auto;
-}
-
 header {
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 80px;
 }
 header .container {
+  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,12 +74,40 @@ header nav ul {
 }
 header nav a {
   text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 13px;
   color: #7b7b7b;
 }
+header nav a:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  border-radius: 20px;
+  background-color: #3569df;
+  transition: width 0.4s;
+}
+header nav a:hover::after {
+  width: 100%;
+  transition: width 0.4s;
+}
 
-main .container {
-  align-items: center;
+main {
+  width: 100%;
+  height: calc(100vh - 100px);
+}
+
+main div {
+  text-align: center;
+}
+main .main-title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+main h6 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: rgba(34, 68, 144, 0.5607843137);
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

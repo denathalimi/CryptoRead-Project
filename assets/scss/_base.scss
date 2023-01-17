@@ -1,11 +1,13 @@
 @import 'variables';
 
 h1 {
+    font-family: $fmedium;
     font-size: 50px;
     color: $cdarkblue;
 }
 
 h4 {
+    font-family: $fmedium;
     font-size: 18px;
 }
 
@@ -35,12 +37,13 @@ h4 {
     border-bottom-right-radius: 0px;
 }
 
-.container-header {
-    width: 1140px;
+.container {
+    width: 1000px;
     margin: 0 auto;
 }
 
-.container {
-    width: 900px;
-    margin: 0 auto;
+p {
+    font-size: 14px;
+    font-weight: 600;
+    color: $clightgray;
 }
