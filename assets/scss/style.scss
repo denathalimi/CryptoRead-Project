@@ -105,11 +105,17 @@ section.keyfeatures {
     }
 
     .keyfeatures-category {
+        padding: 25px;
+        border-radius: 20px;
         display: grid;
         grid-template-columns: 1fr 6fr;
+        background-color: #F6F8FC;
         
 
         svg {
+            background-color: #e6efff;
+            border-radius: 20px;
+            padding: 5px;
             grid-row: 1 / 3;
         }
 
@@ -118,9 +124,53 @@ section.keyfeatures {
     img {
         grid-column: 2 / 3;
         grid-row: 1 / 5;
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
     }
 
     h4 {
-        color: $cdarkgray;
+        color: $cdarkblue;
+    }
+}
+
+section.ourapproach {
+    padding: 70px 0px;
+
+    .ourapproach-title {
+        text-align: center;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 60px;
+        }
+    }
+
+    .ourapproach-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .ourapproach-category {
+        padding: 25px;
+        border-radius: 20px;
+        background-color: #F6F8FC;
+        text-align: center;
+
+        svg {
+            background-color: #e6efff;
+            border-radius: 20px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+    }
+    
+    h4 {
+        color: $cdarkblue;
+        margin-bottom: 10px;
     }
 }
