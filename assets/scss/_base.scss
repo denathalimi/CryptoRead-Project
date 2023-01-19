@@ -12,14 +12,37 @@ h4 {
 }
 
 .btn {
-    background-color: $cblue;
-    color: $cwhite;
     padding: 10px 20px;
     border-radius: 34px;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 12px;
+    font-family: $fmedium;
     vertical-align: center;
     text-decoration: none;
+}
+
+.btn-primary {
+    background-color: $cblue;
+    color: $cwhite;
+    margin-left: 5px;
+}
+
+.btn-white {
+    background-color: $cwhite;
+    color: $cblue;
+    vertical-align: center;
+    margin-left: 5px;
+}
+
+.btn-bordered {
+    background-color: transparent;
+    border: 1px solid $cblue;
+    color: $cblue;
+}
+
+.btn-bordered:hover {
+    background-color: $cblue;
+    color: $cwhite;
+    transition: all .2s ease-in-out;
 }
 
 .input-subscribe {
@@ -42,5 +65,4 @@ h4 {
 p {
     font-family: $fmedium;
     font-size: 14px;
-    color: $clightgray;
 }
