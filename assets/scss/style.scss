@@ -174,3 +174,36 @@ section.ourapproach {
         margin-bottom: 10px;
     }
 }
+
+footer {
+    background-color: #2d5fd3;
+
+    .container {
+        text-align: center;
+    }
+    
+    h1 {
+        color: $cwhite;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    p {
+        margin-bottom: 50px;
+        color: $cwhite;
+    }
+
+    input {
+        margin-bottom: 40px;
+    }
+
+    h4 {
+        color: $cwhite;
+        margin-bottom: 20px;
+    }
+
+    svg {
+        background-color: #d3d7f2!important;
+    }
+
+}

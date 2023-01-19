@@ -190,4 +190,27 @@ section.ourapproach .ourapproach-category svg {
 section.ourapproach h4 {
   color: #4d4970;
   margin-bottom: 10px;
+}
+
+footer {
+  background-color: #2d5fd3;
+}
+footer .container {
+  text-align: center;
+}
+footer h1 {
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+footer p {
+  margin-bottom: 50px;
+  color: #fff;
+}
+footer input {
+  margin-bottom: 40px;
+}
+footer h4 {
+  color: #fff;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=style.css.map */
