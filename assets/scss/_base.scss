@@ -1,5 +1,9 @@
 @import 'variables';
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: $fmedium;
     font-size: 50px;
