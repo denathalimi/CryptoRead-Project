@@ -281,6 +281,7 @@ p {
     
         h4 {
             color: $cdarkblue;
+            margin: 10px 10px;
         }
     }
 
@@ -324,5 +325,9 @@ p {
             color: $cdarkblue;
             margin-bottom: 10px;
         }
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }

@@ -247,6 +247,7 @@ p {
   }
   section.keyfeatures h4 {
     color: #4d4970;
+    margin: 10px 10px;
   }
   section.ourapproach {
     padding: 70px 0px;
@@ -282,6 +283,9 @@ p {
     color: #4d4970;
     margin-bottom: 10px;
   }
+  h1 {
+    font-size: 40px;
+  }
 }
 * {
   font-family: "Gilroy-Regular", sans-serif;
@@ -305,7 +309,6 @@ header img {
 }
 header nav {
   width: 35%;
-  display: block;
 }
 header nav ul {
   list-style-type: none;
