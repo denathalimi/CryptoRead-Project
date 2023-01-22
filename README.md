@@ -1,2 +1,2 @@
-### Projekti CryptoRead HTML & CSS & SASS
+### Projekti CryptoRead HTML & CSS & SASS & Responsive
 ##### Denat Halimi

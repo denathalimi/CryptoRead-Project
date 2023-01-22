@@ -342,3 +342,10 @@ footer {
         vertical-align: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+}
