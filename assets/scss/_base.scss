@@ -74,6 +74,8 @@ p {
 
 @media screen and (max-width: 768px) {
     header {
+        margin-left: 10px;
+        margin-right: 10px;
         nav {
             display: none!important;
         }
@@ -115,6 +117,8 @@ p {
 
     section.cryptocurrency {
         padding: 70px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     
         .cryptocurrency-title {
             text-align: center;
@@ -224,6 +228,8 @@ p {
 
     section.keyfeatures {
         padding: 70px 0px;
+        margin-left: 10px;
+        margin-right: 10px;
     
         .keyfeatures-title {
             text-align: center;
@@ -287,7 +293,9 @@ p {
 
     section.ourapproach {
         padding: 70px 0px;
-    
+        margin-left: 10px;
+        margin-right: 10px;
+        
         .ourapproach-title {
             text-align: center;
     
